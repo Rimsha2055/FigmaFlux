@@ -95,7 +95,7 @@ export default function WhatWeDo() {
         </motion.div>
       </div>
 
-      <motion.div className="mt-16 w-full px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24" variants={container}>
+      <motion.div className="mt-16 w-full" variants={container}>
         <motion.img
           src="/images/image2.jpg"
           alt="Activity"
