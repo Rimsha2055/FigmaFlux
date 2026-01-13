@@ -95,16 +95,15 @@ export default function WhatWeDo() {
         </motion.div>
       </div>
 
-      <motion.div className="mt-16 w-full" variants={container}>
-        <motion.img
+      <div className="mt-6 w-full">
+        <img
           src="/images/image2.jpg"
-          alt="Activity"
-          width={1250}
+          alt="Activity "
+          width={1280}
           height={640}
-          className="w-full h-auto max-h-[580px] object-cover rounded-lg"
-          variants={item}
+          className="w-full h-auto max-h-[640px] object-cover"
         />
-      </motion.div>
+      </div>
     </motion.section>
   );
 }
